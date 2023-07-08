@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body
+{
+    background-color: #000000;
+}
+.img-container
+{
+    width: 60%;
+    min-height: 80vh;
+    background: url('image/wallpaperflare.com_wallpaper\ \(40\).jpg') center/cover fixed no-repeat;
+    border: 0.5rem solid #fff700;
+    border-radius: 0.5rem;
+    position: relative;
+    margin: 4rem auto;
+    box-shadow: 10px 10px 35px rgba(0,0,0,0.6);
+}
+.btn-right
+{
+    top: 50%;
+    position: absolute;
+    background-color: #3b117e;
+    right: 97%;
+    color: #fff;
+    font-size: 1.5rem;
+    border: 0.2rem solid #3cbff8;
+    padding: 10px;
+    transform: 0.2rem solid #3cbff8;
+}
+.btn-left
+{
+    top: 50%;
+    position: absolute;
+    background-color: #3b117e;
+    left: 97%;
+    color: #fff;
+    font-size: 1.5rem;
+    border: 0.2rem solid #3cbff8;
+    padding: 10px;
+    transform: 0.2rem solid #3cbff8;
+}
